@@ -228,7 +228,7 @@ The config file should go in the data directory""")
 		"""
 			server=net.get("server"),
 			port=net.getint("port"),
-			)icks=net.getlist("nicks"),
+			nicks=net.getlist("nicks"),
 			ident=net.get("ident"),
 			realname=net.get("real name"),
 			network=i,
